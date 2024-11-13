@@ -1,218 +1,207 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  },
-  "products": [
-    {
-      "id": "prod123",
-      "name": "Stylish Sneakers",
-      "description": "High-quality, comfortable sneakers perfect for any occasion. Made with breathable materials for all-day wear.",
-      "price": 89.99,
-      "images": [
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-      ],
-      "variants": [
-        { "size": "7", "color": "Red" },
-        { "size": "8", "color": "Red" },
-        { "size": "9", "color": "Black" },
-        { "size": "10", "color": "Black" }
-      ],
-      "inStock": true,
-      "ratings": 4.5,
-      "reviewsCount": 120,
-      "shippingOptions": [
-        { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 15.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod124",
-      "name": "Elegant Watch",
-      "description": "A sleek, modern watch for any occasion. Elegant design combined with precision engineering.",
-      "price": 149.99,
-      "images": [
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-      ],
-      "variants": [
-        { "size": "Small", "color": "Silver" },
-        { "size": "Medium", "color": "Black" }
-      ],
-      "inStock": true,
-      "ratings": 4.7,
-      "reviewsCount": 85,
-      "shippingOptions": [
-        { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 20.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod125",
-      "name": "Leather Backpack",
-      "description": "A durable, stylish leather backpack. Perfect for both work and travel.",
-      "price": 119.99,
-      "images": [
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-      ],
-      "variants": [
-        { "size": "Medium", "color": "Brown" },
-        { "size": "Large", "color": "Black" }
-      ],
-      "inStock": false,
-      "ratings": 4.2,
-      "reviewsCount": 45,
-      "shippingOptions": [
-        { "type": "Standard", "price": 7.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 18.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod126",
-      "name": "Bluetooth Headphones",
-      "description": "Wireless headphones with excellent sound quality and long battery life.",
-      "price": 59.99,
-      "images": [
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-      ],
-      "variants": [
-        { "color": "Black" },
-        { "color": "Blue" }
-      ],
-      "inStock": true,
-      "ratings": 4.8,
-      "reviewsCount": 200,
-      "shippingOptions": [
-        { "type": "Standard", "price": 4.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 12.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod127",
-      "name": "Smartphone Stand",
-      "description": "Adjustable stand for smartphones. Perfect for video calls and watching movies.",
-      "price": 19.99,
-      "images": [
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-      ],
-      "variants": [
-        { "color": "White" },
-        { "color": "Black" }
-      ],
-      "inStock": true,
-      "ratings": 4.3,
-      "reviewsCount": 60,
-      "shippingOptions": [
-        { "type": "Standard", "price": 3.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 10.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod128",
-      "name": "Wireless Charger",
-      "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
-      "price": 29.99,
-      "images": [
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-      ],
-      "variants": [
-        { "color": "Black" },
-        { "color": "Gray" }
-      ],
-      "inStock": false,
-      "ratings": 4.1,
-      "reviewsCount": 40,
-      "shippingOptions": [
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-      ]
-    },
-    {
-      "id": "prod129",
-      "name": "Running Shoes",
-      "description": "Lightweight running shoes with cushioning and support for long-distance running.",
-      "price": 79.99,
-      "images": [
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-      ],
-      "variants": [
-        { "size": "8", "color": "Blue" },
-        { "size": "9", "color": "Gray" },
-        { "size": "10", "color": "Black" }
-      ],
-      "inStock": true,
-      "ratings": 4.6,
-      "reviewsCount": 150,
-      "shippingOptions": [
-        { "type": "Standard", "price": 6.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 14.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod130",
-      "name": "Portable Speaker",
-      "description": "Compact Bluetooth speaker with powerful sound and a long-lasting battery.",
-      "price": 49.99,
-      "images": [
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-      ],
-      "variants": [
-        { "color": "Red" },
-        { "color": "Black" }
-      ],
-      "inStock": true,
-      "ratings": 4.5,
-      "reviewsCount": 95,
-      "shippingOptions": [
-        { "type": "Standard", "price": 4.5, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 13.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    },
-    {
-      "id": "prod131",
-      "name": "Yoga Mat",
-      "description": "Eco-friendly yoga mat with non-slip surface, ideal for home and studio workouts.",
-      "price": 35.99,
-      "images": [
-        "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
-        "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
-        "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
-      ],
-      "variants": [
-        { "color": "Green" },
-        { "color": "Purple" }
-      ],
-      "inStock": false,
-      "ratings": 4.4,
-      "reviewsCount": 70,
-      "shippingOptions": [
-        { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
-        { "type": "Express", "price": 15.0, "estimatedDelivery": "2-3 business days" }
-      ]
-    }
-  ]
-}
+    "products": [
+      {
+        "id": "prod123",
+        "name": "Stylish Sneakers",
+        "description": "High-quality, comfortable sneakers perfect for any occasion. Made with breathable materials for all-day wear.",
+        "price": 89.99,
+        "images": [
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
+        ],
+        "variants": [
+          { "size": "7", "color": "Red" },
+          { "size": "8", "color": "Red" },
+          { "size": "9", "color": "Black" },
+          { "size": "10", "color": "Black" }
+        ],
+        "inStock": true,
+        "ratings": 4.5,
+        "reviewsCount": 120,
+        "shippingOptions": [
+          { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 15.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod124",
+        "name": "Elegant Watch",
+        "description": "A sleek, modern watch for any occasion. Elegant design combined with precision engineering.",
+        "price": 149.99,
+        "images": [
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
+        ],
+        "variants": [
+          { "size": "Small", "color": "Silver" },
+          { "size": "Medium", "color": "Black" }
+        ],
+        "inStock": true,
+        "ratings": 4.7,
+        "reviewsCount": 85,
+        "shippingOptions": [
+          { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 20.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod125",
+        "name": "Leather Backpack",
+        "description": "A durable, stylish leather backpack. Perfect for both work and travel.",
+        "price": 119.99,
+        "images": [
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png",
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png"
+        ],
+        "variants": [
+          { "size": "Medium", "color": "Brown" },
+          { "size": "Large", "color": "Black" }
+        ],
+        "inStock": false,
+        "ratings": 4.2,
+        "reviewsCount": 45,
+        "shippingOptions": [
+          { "type": "Standard", "price": 7.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 18.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod126",
+        "name": "Bluetooth Headphones",
+        "description": "Wireless headphones with excellent sound quality and long battery life.",
+        "price": 59.99,
+        "images": [
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
+        ],
+        "variants": [
+          { "color": "Black" },
+          { "color": "Blue" }
+        ],
+        "inStock": true,
+        "ratings": 4.8,
+        "reviewsCount": 200,
+        "shippingOptions": [
+          { "type": "Standard", "price": 4.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 12.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod127",
+        "name": "Smartphone Stand",
+        "description": "Adjustable stand for smartphones. Perfect for video calls and watching movies.",
+        "price": 19.99,
+        "images": [
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
+        ],
+        "variants": [
+          { "color": "White" },
+          { "color": "Black" }
+        ],
+        "inStock": true,
+        "ratings": 4.3,
+        "reviewsCount": 60,
+        "shippingOptions": [
+          { "type": "Standard", "price": 3.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 10.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod128",
+        "name": "Wireless Charger",
+        "description": "Fast wireless charging pad compatible with all Qi-enabled devices.",
+        "price": 29.99,
+        "images": [
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png",
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png"
+        ],
+        "variants": [
+          { "color": "Black" },
+          { "color": "Gray" }
+        ],
+        "inStock": false,
+        "ratings": 4.1,
+        "reviewsCount": 40,
+        "shippingOptions": [
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png"
+        ]
+      },
+      {
+        "id": "prod129",
+        "name": "Running Shoes",
+        "description": "Lightweight running shoes with cushioning and support for long-distance running.",
+        "price": 79.99,
+        "images": [
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png",
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png"
+        ],
+        "variants": [
+          { "size": "8", "color": "Blue" },
+          { "size": "9", "color": "Gray" },
+          { "size": "10", "color": "Black" }
+        ],
+        "inStock": true,
+        "ratings": 4.6,
+        "reviewsCount": 150,
+        "shippingOptions": [
+          { "type": "Standard", "price": 6.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 14.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod130",
+        "name": "Portable Speaker",
+        "description": "Compact Bluetooth speaker with powerful sound and a long-lasting battery.",
+        "price": 49.99,
+        "images": [
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png"
+        ],
+        "variants": [
+          { "color": "Red" },
+          { "color": "Black" }
+        ],
+        "inStock": true,
+        "ratings": 4.5,
+        "reviewsCount": 95,
+        "shippingOptions": [
+          { "type": "Standard", "price": 4.5, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 13.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      },
+      {
+        "id": "prod131",
+        "name": "Yoga Mat",
+        "description": "Eco-friendly yoga mat with non-slip surface, ideal for home and studio workouts.",
+        "price": 35.99,
+        "images": [
+          "https://styleguide.iu.edu/images/1-1_placeholder_768px-768px.png",
+          "https://lucidgen.com/wp-content/uploads/2021/08/kich-thuoc-anh-dang-facebook-1-hinh.png",
+          "https://s3.amazonaws.com/www-inside-design/uploads/2020/10/aspect-ratios-blogpost-1x1-1.png"
+        ],
+        "variants": [
+          { "color": "Green" },
+          { "color": "Purple" }
+        ],
+        "inStock": false,
+        "ratings": 4.4,
+        "reviewsCount": 70,
+        "shippingOptions": [
+          { "type": "Standard", "price": 5.0, "estimatedDelivery": "5-7 business days" },
+          { "type": "Express", "price": 15.0, "estimatedDelivery": "2-3 business days" }
+        ]
+      }
+    ]
+  }
+  
